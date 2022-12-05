@@ -7,7 +7,7 @@ const SectionPastWork = ({ projects }) => {
   if (!projects.length) return null;
 
   return (
-    <Section title="Past Work">
+    <Section title="Work">
       {projects.map((project) => (
         <SummaryItem
           key={project.name}

@@ -96,27 +96,27 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Blue Raster',
-        description: 'Software Engineer,  June 2013 - Dec 2016',
-        link: 'https://www.blueraster.com/',
-      },
-      {
-        name: 'Volunteer & Open Source Contributor',
-        description: 'Developer, March 2020 - Present',
+        name: 'CartoWorks',
+        description: 'Software Engineer, March 2020 - Present',
         link: '',
       },
       {
         name: 'Gypsy Floors',
         description: 'IT Adminisrator, January 2016 - March 2020',
         link: '',
-      }
+      },
+      {
+        name: 'Blue Raster',
+        description: 'Software Engineer, June 2013 - Dec 2016',
+        link: 'https://www.blueraster.com/',
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript/TypeScript, Node.js, React, ArcGIS JS, Python, WordPress',
+          'JavaScript/TypeScript, Node.js, React, Python, ArcGIS JS',
       },
       {
         name: 'Databases',
@@ -125,7 +125,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), GIT, CI / CD, Microservices, Figma, Functional Programming',
+          'Docker, Amazon Web Services (AWS), GIT, CI / CD, Microservices, Figma, Functional Programming, WordPress',
       },
     ],
   },
