@@ -120,7 +120,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PosgreSQL, MySQL',
       },
       {
         name: 'Other',
