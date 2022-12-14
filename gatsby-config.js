@@ -17,6 +17,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/al-marquez/`,
     // Content of the About Me section
     email: `albertmarquez@outlook.com`,
+    resume: `https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:edd99a3d-3506-4ecd-ac4e-55c1ca8d29cf`,
 
     about: `I'm a software engineer with both front-end and back-end experience. Clean and performant code is a passion of mine, as is contributing to
     efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,

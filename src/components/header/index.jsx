@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 import {SiLinkedin, SiGithub} from 'react-icons/si'
-import {MdEmail} from 'react-icons/md'
+import {MdEmail, MdDescription} from 'react-icons/md'
 
 import profileImg from '../../images/profile.jpg';
 
@@ -23,6 +23,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const resume = get(metadata, 'resume', false);
   const email = get(metadata, 'email', false);
 
   return (
@@ -69,6 +70,14 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <a className={classes.link} href={`mailto:${email}`} target='_blank' rel="noreferrer">
                 <MdEmail className={classes.linkIcon} style={{transform: 'translateY(-1px)'}} />
                 Email
+              </a>
+            </li>
+          )}
+          {resume && (
+            <li className={classes.item}>
+              <a className={classes.link} href={`${resume}`} target='_blank' rel="noreferrer">
+                <MdDescription className={classes.linkIcon} style={{transform: 'translateY(-1px)'}} />
+                Resume
               </a>
             </li>
           )}
