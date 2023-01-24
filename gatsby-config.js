@@ -97,8 +97,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Digital Infuzion',
+        description: 'Software Engineer, January 2023 - Present',
+        link: 'https://www.digitalinfuzion.com/',
+      },
+      {
         name: 'CartoWorks',
-        description: 'Software Engineer, March 2020 - Present',
+        description: 'Software Engineer, March 2020 - January 2023',
         link: '',
       },
       {
